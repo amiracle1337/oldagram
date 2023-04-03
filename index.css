@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F5;
+}
+
+header {
+    border-bottom: solid 0.1rem lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 10px 0; 
+    background-color: white;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 20px;;
+}
+
+.user-profile {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 25px 0 0;
+}
+
+.user-profile-feed {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin: 15px 0 0 15px;
+}
+
+.in-feed-post {
+    display: flex;
+
+}
+
+.in-feed-pic {
+    width: 100%;
+    margin: 15px 0 0 0;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.post-avatar-name, .post-avatar-location {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.in-feed-post-info {
+    font-size: 13px;
+    margin: 0;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.icon-heart,
+.icon-comment,
+.icon-dm {
+    width: 28px;
+    padding: 20px 0 0 15px;   
+}
+
+.icon-heart:hover,
+.icon-comment:hover,
+.icon-dm:hover {
+    width: 23px;
+    border: 1px solid white;
+    opacity: 0.5;
+}
+
+.user-profile-comment {
+    display: flex;
+    margin: 0; 
+}
+
+.user-profile-post {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.user-comment-post{
+    font-size: 15px;
+    margin: 0;
+    margin: 0 0 10px 5px;
+    
+}
+
+.post-likes {
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+.space {
+    margin-top: 10px;
+    background-color: red;
+    border: solid 25px #F4F4F5;
+}
